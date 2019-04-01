@@ -1,4 +1,54 @@
 module.exports = {
+  // サイトの基本情報
+  title: 'ResonicaPress',
+  description: 'シークレットデータベース',
+
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:url',
+        content: 'https://resonica.firebaseapp.com/'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:type',
+        content: 'website'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:title',
+        content: 'Resonica'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:description',
+        content: 'secret database'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:image',
+        content: '/img/logo.png'
+      }
+    ]
+  ],
+
   themeConfig: {
     // 言語設定
     locales: {
@@ -7,39 +57,9 @@ module.exports = {
       }
     },
 
-    // サイトの基本情報
-    title: 'ResonicaPress',
-    description: 'シークレットデータベース',
-    head: [
-      ['link', {
-        rel: 'icon',
-        type: 'image/png',
-        href: '/favicon.png'
-      }],
-      ['meta', {
-        name: 'og:url',
-        content: 'https://resonica.firebaseapp.com/'
-      }],
-      ['meta', {
-        name: 'og:type',
-        content: 'website'
-      }],
-      ['meta', {
-        name: 'og:title',
-        content: 'Resonica'
-      }],
-      ['meta', {
-        name: 'og:description',
-        content: 'secret database'
-      }],
-      ['meta', {
-        name: 'og:image',
-        content: '/img/logo.png'
-      }]
-    ],
-
     // ナビゲーション
-    nav: [{
+    nav: [
+      {
         text: 'Home',
         link: '/'
       },
@@ -53,7 +73,8 @@ module.exports = {
       },
       {
         text: 'Weapon',
-        items: [{
+        items: [
+          {
             text: '幻槍',
             link: '/weapon/spear/'
           },
@@ -77,7 +98,8 @@ module.exports = {
       },
       {
         text: 'Skill',
-        items: [{
+        items: [
+          {
             text: '幻槍',
             link: '/skill/skill-spear/'
           },
@@ -113,7 +135,7 @@ module.exports = {
       }
     ],
 
-    sidebar: 'auto',
+    sidebar: 'auto'
     //sidebarDepth: 2
   }
-}
+};

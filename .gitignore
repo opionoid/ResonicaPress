@@ -1,3 +1,4 @@
 package-lock.json
 node_modules
-.DB_store
+.DS_store
+docs/.vuepress/dist/*
