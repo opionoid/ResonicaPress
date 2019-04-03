@@ -65,7 +65,20 @@ module.exports = {
       },
       {
         text: 'Story',
-        link: '/story/'
+        items: [
+          {
+            text: 'plot',
+            link: '/story/plot/'
+          },
+          {
+            text: 'character',
+            link: '/story/character/'
+          },
+          {
+            text: 'world',
+            link: '/story/world/'
+          }
+        ]
       },
       {
         text: 'Ability',
@@ -135,7 +148,7 @@ module.exports = {
       }
     ],
 
-    sidebar: 'auto'
-    //sidebarDepth: 2
+    sidebar: 'auto',
+    sidebarDepth: 2
   }
 };
