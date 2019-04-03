@@ -81,6 +81,10 @@ module.exports = {
         ]
       },
       {
+        text: 'Rule',
+        link: '/rule/'
+      },
+      {
         text: 'Ability',
         link: '/ability/'
       },
@@ -151,4 +155,4 @@ module.exports = {
     sidebar: 'auto',
     sidebarDepth: 2
   }
-};
+}
