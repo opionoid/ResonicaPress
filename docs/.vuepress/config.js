@@ -58,13 +58,15 @@ module.exports = {
     },
 
     // ナビゲーション
-    nav: [{
+    nav: [
+      {
         text: 'Home',
         link: '/'
       },
       {
         text: 'Story',
-        items: [{
+        items: [
+          {
             text: 'plot',
             link: '/story/plot/'
           },
@@ -74,11 +76,7 @@ module.exports = {
           },
           {
             text: 'world',
-            link: '/story/world/',
-            items: [{
-              text: '廃遊園地',
-              link: '/story/world/amusement-park'
-            }]
+            link: '/story/world/'
           }
         ]
       },
@@ -92,7 +90,8 @@ module.exports = {
       },
       {
         text: 'Weapon',
-        items: [{
+        items: [
+          {
             text: '幻槍',
             link: '/weapon/spear/'
           },
@@ -116,7 +115,8 @@ module.exports = {
       },
       {
         text: 'Skill',
-        items: [{
+        items: [
+          {
             text: '幻槍',
             link: '/skill/skill-spear/'
           },
@@ -143,8 +143,13 @@ module.exports = {
         link: '/item/'
       },
       {
-        text: 'Economy',
-        link: '/economy/'
+        text: 'Location',
+        items: [
+          {
+            text: '廃遊園地',
+            link: '/location/amusement-park/'
+          }
+        ]
       },
       {
         text: 'Public',
