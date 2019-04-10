@@ -148,6 +148,10 @@ module.exports = {
           {
             text: '廃遊園地',
             link: '/location/amusement-park/'
+          },
+          {
+            text: '',
+            link: ''
           }
         ]
       },
