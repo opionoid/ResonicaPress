@@ -1,14 +1,12 @@
 ---
 home: true
 heroImage: /logo.png
-actionText: Publish
-actionLink: /publish/
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  - title: セッション開催
+    details: 毎週火/土曜に開催．セッションに必要な情報を都度更新すること．
+  - title: PLとの情報共有
+    details: 画像素材はDropbox，それ以外はNotionを用いる．情報が分散した前回を省みて，Slackにマークダウンを貼りつけないこと．
+  - title: あとがき
+    details: セッションが倒れたものの，次回のネタになるかもしれないのでこれは残しておく．
 footer: © 2019 LihnOpion.
 ---
